@@ -1,0 +1,30 @@
+За да подам масив от стрингове като Varargs
+
+ private String addPlanet(String[] data) {
+        String planetName = data[0];
+        String[] items = Arrays.stream(data).skip(1).toArray(String[]::new);
+        return controller.addPlanet(planetName, items);
+    }
+
+Булиън за това има ли го нещо в енум списък:
+
+ if(Arrays.stream(MyEnum.values()).anyMatch(a -> a.name().equals("MyString"))){
+
+няма ли го:
+
+ if(Arrays.stream(MyEnum.values()).noneMatch(a -> a.name().equals("MyString"))){
+
+При валидация на променлива, която трябва да не пада под нула, ето това:
+
+ energy -= 15;
+
+        if (energy < 0) {
+            setEnergy(0);
+        }
+
+е същото като:
+
+energy = Math.max(0, energy - 15);
+
+
+Collections.addAll(някаква колекция, някакви елементи);
