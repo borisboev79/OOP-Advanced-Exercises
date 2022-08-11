@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="DefiningClasses">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_ExamPreparation_Exercises/DefiningClasses/parking.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_ExamPreparation_Exercises/DefiningClasses/easterBasket.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_ExamPreparation_Exercises/DefiningClasses/parrots.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_ExamPreparation_Exercises/DefiningClasses/christmas.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_ExamPreparation_Exercises/DefiningClasses/vetClinic.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_ExamPreparation_Exercises/DefiningClasses/guild.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_ExamPreparation_Exercises/DefiningClasses/cafe.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_ExamPreparation_Exercises/DefiningClasses/dealership.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_ExamPreparation_Exercises/DefiningClasses/groomingSalon.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_ExamPreparation_Exercises/DefiningClasses/aquarium.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_ExamPreparation_Exercises/DefiningClasses/bakery.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

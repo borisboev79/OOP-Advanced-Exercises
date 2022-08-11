@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="ReflectionAndAnnotations_Lab">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/OOP/ReflectionAndAnnotations_Lab/L01_Reflection.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/ReflectionAndAnnotations_Lab/E03_HighQualityMistakes.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/ReflectionAndAnnotations_Lab/L02_GettersAndSetters.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="InterfacesAndAbstraction_Lab">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/OOP/InterfacesAndAbstraction_Lab/L06_Ferrari.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/InterfacesAndAbstraction_Lab/L01_CarShop.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/InterfacesAndAbstraction_Lab/L02_CarShopExtented.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/InterfacesAndAbstraction_Lab/L05_BorderControl.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/InterfacesAndAbstraction_Lab/L03_SayHello.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/InterfacesAndAbstraction_Lab/L04_SayHelloExtended.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

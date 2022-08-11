@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Encapsulation_Lab">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/OOP/Encapsulation_Lab/L03_ValidationData.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Encapsulation_Lab/L04_FirstAndReserveTeam.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Encapsulation_Lab/L02_SalaryIncrease.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Encapsulation_Lab/L01_SortByNameAndAge.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

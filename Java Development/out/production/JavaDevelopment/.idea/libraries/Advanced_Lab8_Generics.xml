@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Advanced_Lab8_Generics">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Lab8_Generics/Advanced_Generics2_ArrayCreator.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Lab8_Generics/Advanced_Generics4_ListUtilities.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Lab8_Generics/Advanced_Generics1_JarOfT.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Lab8_Generics/Advanced_Generics3_GenericScale.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

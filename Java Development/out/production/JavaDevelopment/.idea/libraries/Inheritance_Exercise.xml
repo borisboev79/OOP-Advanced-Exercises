@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Inheritance_Exercise">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/OOP/Inheritance_Exercise/E04_NeedForSpeed.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Inheritance_Exercise/restaurant.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Inheritance_Exercise/hero.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Inheritance_Exercise/E01_Person.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Inheritance_Exercise/animals.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Inheritance_Exercise/E02_Zoo.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Encapsulation_Exercise">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/OOP/Encapsulation_Exercise/E01_ClassBox.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Encapsulation_Exercise/E05_FootballTeamGenerator.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Encapsulation_Exercise/E02_AnimalFarm.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Encapsulation_Exercise/E03_ShoppingSpree.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Encapsulation_Exercise/E04_PizzaCalories.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

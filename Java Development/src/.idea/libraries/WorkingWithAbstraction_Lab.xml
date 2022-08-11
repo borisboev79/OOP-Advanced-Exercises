@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="WorkingWithAbstraction_Lab">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/OOP/WorkingWithAbstraction_Lab/L02_PointInRectangle.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/WorkingWithAbstraction_Lab/L03_StudentSytem.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/WorkingWithAbstraction_Lab/L04_HotelReservation.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

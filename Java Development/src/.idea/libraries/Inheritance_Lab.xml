@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Inheritance_Lab">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/OOP/Inheritance_Lab/L05_StackOfStrings.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Inheritance_Lab/L01_SingleInheritance.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Inheritance_Lab/L04_RandomArrayList.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Inheritance_Lab/L03_HierarchicalInheritance.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Inheritance_Lab/L02_MultipleInheritance.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

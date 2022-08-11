@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Polymorphism_Exercise">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/OOP/Polymorphism_Exercise/E05_Calculator.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Polymorphism_Exercise/E01_Vehicle.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Polymorphism_Exercise/E04_Word.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Polymorphism_Exercise/E02_VehicleExtension.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/Polymorphism_Exercise/E03_WildFarm.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

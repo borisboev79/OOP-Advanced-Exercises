@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="ReflectionAndAnnotations_Exercise">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/OOP/ReflectionAndAnnotations_Exercise/barracksWars.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/ReflectionAndAnnotations_Exercise/blackBoxInteger.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/ReflectionAndAnnotations_Exercise/barracksWars4.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/ReflectionAndAnnotations_Exercise/barracksWars5.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/ReflectionAndAnnotations_Exercise/harvestingFields.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

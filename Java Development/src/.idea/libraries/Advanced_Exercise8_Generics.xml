@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Advanced_Exercise8_Generics">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise8_Generics/ADV_EXS08_CustomListSorter.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise8_Generics/ADV_EXS03_GenericSwapMethodString.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise8_Generics/ADV_EXS10_Tuple.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise8_Generics/ADV_EXS06_GenericCountMeshodDoubles.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise8_Generics/ADV_EXS05_GenericCountMethodStrings.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise8_Generics/ADV_EXS01_GenericBox.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise8_Generics/ADV_EXS02_GenericBoxOfInteger.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise8_Generics/ADV_EXS07_CustomList.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise8_Generics/ADV_EXS04_GenericSwapMethodInteger.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

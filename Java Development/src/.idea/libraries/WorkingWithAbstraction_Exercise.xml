@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="WorkingWithAbstraction_Exercise">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/OOP/WorkingWithAbstraction_Exercise/E01_CardSuit.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/WorkingWithAbstraction_Exercise/E05_JedyGalaxy.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/WorkingWithAbstraction_Exercise/E04_TrafficLights.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/WorkingWithAbstraction_Exercise/E03_CardsWIthPower.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/WorkingWithAbstraction_Exercise/E06_GreedyTimes.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/WorkingWithAbstraction_Exercise/E02_CardRank.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

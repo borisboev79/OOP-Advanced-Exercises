@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Advanced_Exercise9_IteratorsAndComparators">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise9_IteratorsAndComparators/ADV_EXS05_ComparingObjects.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise9_IteratorsAndComparators/ADV_EXS01_ListyIterator.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise9_IteratorsAndComparators/ADV_EXS02_Collection.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise9_IteratorsAndComparators/ADV_EXS04_Froggy.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise9_IteratorsAndComparators/ADV_EXS03_StackIterator.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise9_IteratorsAndComparators/ADV_EXS06_StrategyPattern.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

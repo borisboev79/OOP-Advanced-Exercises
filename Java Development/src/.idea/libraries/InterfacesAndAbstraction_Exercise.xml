@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="InterfacesAndAbstraction_Exercise">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/OOP/InterfacesAndAbstraction_Exercise/E07_CollectionHieararchy.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/InterfacesAndAbstraction_Exercise/E01_DefineAnInterfacePerson.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/InterfacesAndAbstraction_Exercise/E02_MultipleImplementation.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/InterfacesAndAbstraction_Exercise/E04_FoodShortage.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/InterfacesAndAbstraction_Exercise/E05_Telephony.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/InterfacesAndAbstraction_Exercise/E06_MilitaryElite.zip!/" />
+      <root url="jar://$PROJECT_DIR$/OOP/InterfacesAndAbstraction_Exercise/E03_BirthdayCelebrations.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

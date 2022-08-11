@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Advanced_Lab9_IteratorsAndComparators">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Lab9_IteratorsAndComparators/ADV_LAB03_ComparableBook.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Lab9_IteratorsAndComparators/ADV_LAB04_BookComparator.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Lab9_IteratorsAndComparators/ADV_LAB01_Book.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Lab9_IteratorsAndComparators/ADV_LAB02_Library.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

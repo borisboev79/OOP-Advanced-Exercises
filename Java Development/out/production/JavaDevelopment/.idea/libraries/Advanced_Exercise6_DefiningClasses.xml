@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Advanced_Exercise6_DefiningClasses">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise6_DefiningClasses/ADV_EXS03_SpeedRacing.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise6_DefiningClasses/ADV_EXS02_CompanyRoster.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise6_DefiningClasses/ADV_EXS04_RawData.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise6_DefiningClasses/ADV_EXS01_OpinionPoll.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise6_DefiningClasses/ADV_EXS06_PokemonTrainer.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise6_DefiningClasses/ADV_EXS05_CarSalesman.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Advanced/Advanced_Exercise6_DefiningClasses/ADV_EXS07_Google.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
