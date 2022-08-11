@@ -28,6 +28,6 @@ public class Wizard extends BaseHero {
 
     @Override
     public double getDamage() {
-        return getIntelligence() * 5 + getDexterity();
+        return (this.getIntelligence() * 5) + getDexterity();
     }
 }

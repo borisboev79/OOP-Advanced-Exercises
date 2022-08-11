@@ -28,7 +28,7 @@ public class Necromancer extends BaseHero{
 
     @Override
     public double getDamage() {
-        return getIntelligence() * 2 + getDexterity() * 2 + getStrength() * 2;
+        return (getIntelligence() * 2) + (getDexterity() * 2) + (getStrength() * 2);
     }
 
 }

@@ -28,7 +28,7 @@ public class Warrior extends BaseHero{
 
     @Override
     public double getDamage() {
-        return getStrength() * 2 + getDexterity();
+        return (getStrength() * 2) + getDexterity();
     }
 
 }

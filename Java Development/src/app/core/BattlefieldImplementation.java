@@ -45,7 +45,7 @@ public class BattlefieldImplementation implements Battlefield {
                 }
 
             }
-            action.executeAction(actionParticipants);
+
             System.out.println(action.executeAction(actionParticipants));
             checkForDeadParticipants();
             this.executedActions.add(action);

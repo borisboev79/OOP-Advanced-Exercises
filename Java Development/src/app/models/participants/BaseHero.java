@@ -117,8 +117,9 @@ public abstract class BaseHero implements Hero {
 
     @Override
     public void takeDamage(double damage) {
-        setHealth(Math.max(0, getHealth() - damage));
-        if (getHealth() <= 0) {
+
+        this.health = Math.max(0, getHealth() - damage);
+         if (getHealth() == 0) {
             isAlive = false;
         }
     }
@@ -130,21 +131,22 @@ public abstract class BaseHero implements Hero {
             setGold(0);
         } else if (targetable instanceof Boss) {
             targetable.receiveReward(getGold() * 0.10);
-            this.setGold(getGold() * 0.9);
+            this.gold = getGold() * 0.9;
         }
 
     }
 
     @Override
     public void receiveReward(double reward) {
-        setGold(getGold() + reward);
+        this.gold = getGold() + reward;
     }
 
     @Override
     public void levelUp() {
-        this.setHealth(this.getStrength() * Config.HERO_HEALTH_MULTIPLIER);
-        this.setDexterity(this.getDexterity() * 2);
-        this.setIntelligence(this.getIntelligence() * 2);
+        this.strength = getStrength() * 2;
+        this.dexterity = getDexterity() * 2;
+        this.intelligence = getIntelligence() * 2;
+        this.health = this.strength * Config.HERO_HEALTH_MULTIPLIER;
         this.level += 1;
     }
 

@@ -36,13 +36,16 @@ public class OneVsOne implements Action {
                 loser = firstHero;
                 break;
             }
+            if(!firstHero.isAlive() || !secondHero.isAlive()){
+                break;
+            }
 
 
         }
 
-        assert winner != null;
-        loser.giveReward(winner);
-        winner.levelUp();
+      //  assert winner != null;
+       // loser.giveReward(winner);
+       // winner.levelUp();
 
         return winner.getName() + " is victorious!" + System.lineSeparator() +
                 winner;
