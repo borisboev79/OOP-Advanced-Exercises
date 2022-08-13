@@ -13,6 +13,7 @@ public class Boss implements Targetable {
         setName(name);
         setHealth(health);
         this.gold = Config.BOSS_GOLD;
+        this.isAlive = true;
     }
 
     @Override
@@ -32,7 +33,7 @@ public class Boss implements Targetable {
         if (!target.isAlive()) {
             this.levelUp();
             target.giveReward(this);
-            result += String.format(" %s has been slain by %s.", target.getName(), this.getName());
+           // result += String.format(" %s has been slain by %s.", target.getName(), this.getName());
         }
 
         return result;
@@ -40,8 +41,10 @@ public class Boss implements Targetable {
 
     @Override
     public void takeDamage(double damage) {
-        setHealth(Math.max(0, getHealth() - damage));
-        isAlive = false;
+        health = Math.max(0, getHealth() - damage);
+        if (getHealth() == 0) {
+            isAlive = false;
+        }
     }
 
     @Override
@@ -96,5 +99,11 @@ public class Boss implements Targetable {
     @Override
     public boolean isAlive() {
         return isAlive;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("  Name: %s | Class: Boss", this.getName()) + System.lineSeparator() +
+                String.format("  Health: %.2f | Damage: %.2f | %.2f Gold", this.health, this.getDamage(), this.gold);
     }
 }

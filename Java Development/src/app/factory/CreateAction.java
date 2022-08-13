@@ -13,7 +13,7 @@ public class CreateAction {
             case "OneVsOne":
                 action = OneVsOne.class.getConstructor().newInstance();
                 break;
-            case "BosFight":
+            case "BossFight":
                 action = BossFight.class.getConstructor().newInstance();
                 break;
             default:

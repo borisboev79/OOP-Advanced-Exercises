@@ -4,6 +4,8 @@ import app.contracts.Hero;
 import app.contracts.Targetable;
 import app.models.Config;
 
+import java.util.stream.Collectors;
+
 public abstract class BaseHero implements Hero {
     private int strength;
     private int dexterity;
@@ -17,7 +19,7 @@ public abstract class BaseHero implements Hero {
     public BaseHero(String name) {
         this.isAlive = true;
         this.level = 1;
-        setGold(gold);
+        this.gold = Config.HERO_START_GOLD;
         setName(name);
         setStrength(strength);
         setDexterity(dexterity);
@@ -53,8 +55,7 @@ public abstract class BaseHero implements Hero {
     }
 
     public void setGold(double gold) {
-        gold = Config.HERO_START_GOLD;
-        this.gold = gold;
+        this.gold = getGold() + gold;
     }
 
     @Override
@@ -84,7 +85,7 @@ public abstract class BaseHero implements Hero {
 
     @Override
     public void setIntelligence(int intelligence) {
-       this.intelligence = intelligence;
+        this.intelligence = intelligence;
     }
 
     @Override
@@ -94,6 +95,9 @@ public abstract class BaseHero implements Hero {
 
     @Override
     public String attack(Targetable target) {
+
+        boolean targetIsBoss = target instanceof Boss;
+
         if (!this.isAlive()) {
             return this.getName() + " is dead! Cannot attack.";
         }
@@ -104,22 +108,22 @@ public abstract class BaseHero implements Hero {
 
         target.takeDamage(this.getDamage());
 
-        String result = this.getName() + " attacked!";
+            String result = this.getName() + " attacked!";
 
-        if (!target.isAlive()) {
-            this.levelUp();
-            target.giveReward(this);
-            result += String.format(" %s has been slain by %s.", target.getName(), this.getName());
-        }
+            if (!target.isAlive() && !targetIsBoss) {
+                this.levelUp();
+                target.giveReward(this);
+                result += String.format(" %s has been slain by %s.", target.getName(), this.getName());
 
-        return result;
+            }
+            return result;
     }
 
     @Override
     public void takeDamage(double damage) {
 
         this.health = Math.max(0, getHealth() - damage);
-         if (getHealth() == 0) {
+        if (getHealth() == 0) {
             isAlive = false;
         }
     }
