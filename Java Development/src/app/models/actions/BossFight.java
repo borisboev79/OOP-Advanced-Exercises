@@ -20,15 +20,17 @@ public class BossFight implements Action {
             return "There should be at least 1 participant for boss fight!";
         }
 
-        Targetable boss = participants.stream().filter(p -> p.getClass().getSimpleName().equals("Boss"))
-                .findFirst().orElse(null);
+        Targetable boss = participants.get(0);
 
-        List<Targetable> heroes = participants.stream().filter(p -> !p.getClass().getSimpleName().equals("Boss")).toList();
+        boolean isBoss = boss instanceof Boss;
+
+        if (!isBoss || boss == null){
+            return "Invalid boss.";
+        }
+
+        List<Targetable> heroes = participants.stream().skip(1).toList();
 
         List<Targetable> aliveHeroes = heroes.stream().filter(Targetable::isAlive).toList();
-
-
-        assert boss != null;
 
             while (boss.isAlive()) {
 
